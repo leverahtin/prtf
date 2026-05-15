@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Портфолио педагога :: vBulletin 3.8 Dark</title>
+  <title>Портфолио</title>
   <style>
-    /* Базовые стили: Строгий ретро-форум 2000-х, тёмная тема, пиксельный Comic Sans */
     * { box-sizing: border-box; }
     body {
       margin: 0; padding: 0;
@@ -14,7 +13,6 @@
       font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', cursive;
       font-size: 13px;
       line-height: 1.4;
-      /* Отключение сглаживания для "пиксельного" эффекта */
       -webkit-font-smoothing: none;
       -moz-osx-font-smoothing: grayscale;
       font-smooth: never;
@@ -26,7 +24,6 @@
     img { border: 0; image-rendering: pixelated; }
     .wrapper { width: 940px; margin: 12px auto 24px; }
 
-    /* Хедер (без навигации) */
     .site-header {
       background-color: #2a2040;
       border: 1px solid #3a2f5c;
@@ -43,7 +40,6 @@
       text-shadow: 1px 1px 0 #000;
     }
 
-    /* Разделы */
     .section {
       background-color: #1a1a28;
       border: 1px solid #3a2f5c;
@@ -65,7 +61,6 @@
     .section-content ul { margin: 4px 0 8px 16px; padding: 0; }
     .section-content li { margin-bottom: 3px; }
 
-    /* Галерея (таблица 5x4) */
     .gallery-table {
       width: 100%;
       border-collapse: collapse;
@@ -96,7 +91,6 @@
     }
     .art-title { font-size: 11px; color: #a098b8; margin: 0; }
 
-    /* Календарь */
     .calendar-box {
       border: 1px solid #3a2f5c;
       background: #151522;
@@ -106,7 +100,6 @@
     }
     .calendar-box iframe { width: 100%; height: 100%; border: 0; filter: grayscale(40%) brightness(0.9); image-rendering: pixelated; }
 
-    /* Методичка / Файлы */
     .file-list { margin: 0; padding: 0; list-style: none; }
     .file-list li {
       background: #1e1e2e;
@@ -125,7 +118,6 @@
     }
     .attach-box a { font-weight: bold; color: #b8a0e8; }
 
-    /* Опрос */
     .poll-box {
       border: 1px solid #3a2f5c;
       background: #151522;
@@ -135,7 +127,6 @@
     .poll-box b { color: #8a6bb0; text-shadow: 1px 1px 0 #000; }
     .poll-box label { color: #c8c0d8; cursor: pointer; }
 
-    /* Контакты */
     .contact-grid {
       width: 100%;
       border-collapse: collapse;
@@ -160,7 +151,6 @@
     }
     .social-links a:hover { background: #3a2f5c; color: #e8e0f5; }
 
-    /* Форма обратной связи */
     .form-table { width: 100%; border-collapse: collapse; }
     .form-table td { padding: 4px; vertical-align: middle; }
     .form-label { font-weight: bold; color: #8a6bb0; width: 140px; text-align: right; text-shadow: 1px 1px 0 #000; }
@@ -187,15 +177,12 @@
     }
     .form-btn:hover { background: #3a2f5c; }
 
-    /* Гостевая книга (ретро-посты) */
     .guest-post { border-bottom: 1px solid #3a2f5c; }
     .guest-post:last-child { border-bottom: none; }
     .guest-user { background:#151522; border-right:1px solid #3a2f5c; padding:8px; font-size:12px; width:140px; color:#a098b8; }
     .guest-body { padding:8px; }
     .guest-meta { font-size:11px; color:#666078; border-bottom:1px solid #2a2a38; padding-bottom:2px; margin-bottom:4px; }
     .quote-box { background:#11111b; border:1px solid #3a2f5c; padding:6px; margin-top:8px; font-size:11px; color:#888098; }
-
-    /* Футер со статистикой */
     .forum-footer {
       background-color: #151522;
       border: 1px solid #3a2f5c;
@@ -207,7 +194,6 @@
       line-height: 1.5;
     }
 
-    /* Адаптивность */
     @media (max-width: 960px) {
       .wrapper { width: 100%; margin: 0; }
       .section { border-left: none; border-right: none; }
@@ -223,17 +209,17 @@
 
 <div class="wrapper">
   <header class="site-header">
-    <div class="site-title">ПОРТФОЛИО ПЕДАГОГА</div>
+    <div class="site-title">ПОРТФОЛИО</div>
   </header>
 
   <div class="section" id="home">
-    <div class="section-header">[ 1. Главная страница ] Приветствие и информация</div>
+    <div class="section-header">Приветствие и информация</div>
     <div class="section-content">
       <p>Добро пожаловать в моё профессиональное портфолио! Рад видеть вас на этой странице.</p>
       <table width="100%" border="0" cellpadding="4" cellspacing="0">
         <tr>
           <td width="140" align="center" valign="top" style="background:#151522; border:1px solid #3a2f5c;">
-            <div style="width:110px; height:110px; background:#222233; border:1px solid #44405c; margin:0 auto 6px; display:flex; align-items:center; justify-content:center; color:#7a7090; font-size:12px;"><img src="https://psv4.userapi.com/s/v1/d2/NERz1u-jAGTBki7Tiq-hKkD0m9hTcYWru2Y5n2SMCBc48O6IvttBfs6YS6t1ZLm6vxhZCn8nv3_87Atr5V-OSGoKUAEL8F8Yu_IYc-ty4jBuL87BXsCZz0KCXqK1p5MeHmfThuQSPIAU/Untitled-1.png" class="dodik"></div>
+            <div style="width:110px; height:110px; background:#222233; border:1px solid #44405c; margin:0 auto 6px; display:flex; align-items:center; justify-content:center; color:#7a7090; font-size:12px;"><img src="Untitled-1.png" class="dodik"></div>
             <span style="font-size:11px; color:#8a6bb0;"></span>
           </td>
           <td valign="top">
@@ -250,7 +236,7 @@
     </div>
   </div>
 
-  <!-- 2. Обо мне -->
+  <!-- Обо мне -->
   <div class="section" id="about">
     <div class="section-header">Образование, достижения, портфолио</div>
     <div class="section-content">
@@ -270,41 +256,40 @@
       <table class="gallery-table">
         <!-- Строка 1 -->
         <tr>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/sYqiwV4zwxvrN0n6ZhLenP-BDo61E3-_XBh0Ou14EtRprpq-QIQ8MHAq1idlHlJgQ3QSvk_p__gd7cwt_kd5kTFyjh4KPMewA2BMcy9dopADh2P39vcv19lVuQHthl0GeaG6ywNCzM89/Babka.png" alt="Работа 1" class="art-img"><div class="art-title">«Бабка»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/mdh0demJ27r5Fzfl8mAtD2grTiTQ1a-mOv-cXBLfjtTD6U0oElTF5_ugATIlMiP2oCdZAbhVT8097Sbc-LkZn7o7hfXMUZJIFGogxkAQZJCkOf1H38TaCbEQGQi_XAPpDf10NRm1M1dT/Bratany.png" alt="Работа 2" class="art-img"><div class="art-title">«Братаны»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/77mixvwosUR3sE1W7Y4o4ywG5FxIdlNbovtQpMK4yLlgEQTXdBvJNKvkmnaQBEmCJr7EF6Jz2NZSk1a47Y62Ycl4qFXBHdySfYr9kLFenFwPtQHCksmiFRcxvTgY4sGji6i4Y7DIFxPU/Pauchiy_ugolyok.png" alt="Работа 3" class="art-img"><div class="art-title">«Паучий уголёк»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/9me9tppuC9X5nY3K3DywqtDCHum8DEaJGi8D-h_FuBDNRGcpGijA224UpZM3cvI8dAlWP7gKlU74TajTs2oV1Aipw_34e6-1GHMn-mxOQohGULUkhsDSyf9NKx2UiZJBgQ2YKAIKJpjo/Dyavol_2.png" alt="Работа 4" class="art-img"><div class="art-title">«Дьявол 2»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/7BcSTEjLQCfZwmBfnZI8GHTJ5J-9tT4HEMNGK0urmNoG71Ob1UwHeSUYhoZH6pruSoEviF5VKJeS7cqDPby-i218O2rPrDVC8BAdGLsMutsf9ChKWO888W9HUaurJTtIPe4JTxkz5Wgt/dymit_39_sa.png" alt="Работа 5" class="art-img"><div class="art-title">«Дымит»</div></td>
+          <td><img src="бабка.png" alt="Работа 1" class="art-img"><div class="art-title">«Бабка»</div></td>
+          <td><img src="братаны.png" alt="Работа 2" class="art-img"><div class="art-title">«Братаны»</div></td>
+          <td><img src="паучий_уголёк.png" alt="Работа 3" class="art-img"><div class="art-title">«Паучий уголёк»</div></td>
+          <td><img src="дьявол2.png" alt="Работа 4" class="art-img"><div class="art-title">«Дьявол 2»</div></td>
+          <td><img src="dыmit'sa.png" alt="Работа 5" class="art-img"><div class="art-title">«Дымит»</div></td>
         </tr>
         <!-- Строка 2 -->
         <tr>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/pgjrGYx2U-4_LcJF9t_LPX6rhYipFrSkjkDzV38v0VffLNjmRzPdp5E4G3W8X8kXW24pbQDJWfEOw2Wt7tj0oNU98W4reqTvRAtXYG1vgo1bno83Ga_WbhpNFhadf37AoBia5yaczfzl/Maxon.png" alt="Работа 6" class="art-img"><div class="art-title">«Максон»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/xe5GsgSdMSgdLmuherYRVfgSJmSjz7J-Z5XerHVFj1CMVJCbR9u4_rSMVPQNdAwyyfkRV8p4y8qvPzwyOMzVef9ns8TlNwBlAu0elQtuQGg-mFbxhrdVQoI-OWanaW8-y1lHI81YtFFP/Chpoko.png" alt="Работа 7" class="art-img"><div class="art-title">«Чпоко»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/SBtGoPXF9TM3Wt0yFZoQkw6ozylR-3t4N5dFgGjQW5EZf4_k0i5-aqs7sbg4lMW6ullYVoYjsALRQ8cL9OmDCJBBCBbkp-blvXiXD5Tz0XfzVhEVDylj4ywA4jbuKNPrysyWZlrKSC00/tyajko.png" alt="Работа 8" class="art-img"><div class="art-title">«Тяжко»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/J1pMZzI_ZxCJfOFG_l5zZuLw5lp5e3FfXQq5qNdm43tmK43dLqPzzYepL-AblWCWXfVGD3mH7uXZ12i9luNFPG_CMpzlLsg-LVoctlEMDlwYosbLt0M4yYw4zo6JEY0jf9jS_b7370-W/PenisTwice.png" alt="Работа 9" class="art-img"><div class="art-title">«Twice»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/nwZGyDsJVK5r_WKg_Z6yUI0xNdKHK69BjV2uWBjsr-ekDsihg1ItvY64ExAqZEC9Etyfi-PQPvPH22mpW08pkj7jilBxNDe1D6i3qApNCYR0fHsvfxt26o3gqDSNy2yLpdSyHOoHpRvv/bimba.png" alt="Работа 10" class="art-img"><div class="art-title">«Бимба»</div></td>
+          <td><img src="максон.png" alt="Работа 6" class="art-img"><div class="art-title">«Максон»</div></td>
+          <td><img src="чпоко.png" alt="Работа 7" class="art-img"><div class="art-title">«Чпоко»</div></td>
+          <td><img src="tyajko.png" alt="Работа 8" class="art-img"><div class="art-title">«Тяжко»</div></td>
+          <td><img src="PenisTwice.png" alt="Работа 9" class="art-img"><div class="art-title">«Twice»</div></td>
+          <td><img src="bimba.png" alt="Работа 10" class="art-img"><div class="art-title">«Бимба»</div></td>
         </tr>
         <!-- Строка 3 -->
         <tr>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/lUNJaTt3MIMGSo0lxcxQgfXizlASZZSDt9hxzFU9GzX_tTrjm1K8w2zldFk-rFSxcw8_z8IwAaSe4EYtcRzQYKTc-rrZcp1cSbExubrdhR9wNbT3D41ZzGkQhMU0q0bX60QBtD_YfVKE/4lapy.png" alt="Работа 11" class="art-img"><div class="art-title">«4 лапы»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/FXxSbpBhmvkauKHDYbZgeMzARz_5Ns-RRMzW0J37GHU-nRXW7cOgLW-cvnCUNtwnAOztFYnfm5AikddUZljBuw02QQVY-4iBbo_tWrsuGMi-xPDPME7ZX6tBU8671u6N83BGK8-418dZ/Pachany.png" alt="Работа 12" class="art-img"><div class="art-title">«Пацаны»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/_chF9vP7W0FME2dkZuBcPq8-2cNKk4G2EFwjkUSDV7tPf58dMKxRl8PNmz7kuedzj6lrzu1vUUXJc0jjvpJ5EMqQJ2ebZcSjcsLoTlJ2XDI68ofSoLvF3rRIjC22bnt9h_srGzYy2jrj/YEbki5.png" alt="Работа 13" class="art-img"><div class="art-title">«Едкий»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/RXY6K_m9pTVkoX34XhaTDsbp8k1UKh_0tKlTRKvSRvn4HLyNVeamIQ-AX9DXqTJ0sugD9jRNgsRX46ZM5MGpPmQ5IZSV8PfGPNfSvILz1ZgQohCKyT_cJgv73mvrUPS6kd1ilXZTvyUO/Dmt_nekro.png" alt="Работа 14" class="art-img"><div class="art-title">«Дмитрий Некро»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/s1EWIVM82rkNVo2tXb27lT18De87UdIiy7497EI8p11b35Yq2X-pHJHEhv2P__FvefOvEczT4MOcgEW0Df1_iLEBeehb_L5MvsMBFBtDLJ6ekE-O0Bu1xSZiKxbEunL0Enn8fc2iZrnp/Zhirnyy.png" alt="Работа 15" class="art-img"><div class="art-title">«Жирный»</div></td>
+          <td><img src="4лапы.png" alt="Работа 11" class="art-img"><div class="art-title">«4 лапы»</div></td>
+          <td><img src="пачаны.png" alt="Работа 12" class="art-img"><div class="art-title">«Пацаны»</div></td>
+          <td><img src="YEbki5.png" alt="Работа 13" class="art-img"><div class="art-title">«Едкий»</div></td>
+          <td><img src="дмт.некро.png" alt="Работа 14" class="art-img"><div class="art-title">«Дмитрий Некро»</div></td>
+          <td><img src="жирный.png" alt="Работа 15" class="art-img"><div class="art-title">«Жирный»</div></td>
         </tr>
         <!-- Строка 4 -->
         <tr>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/BJgXeCefssrnMjW1GJgLKvAIpICNEj-lzRb_-osl1YeLSv7vXmQw7mr4TPuZJRA81gkmajC3um9pPS2Nfw-dHHbw9Xo5BdTuuWYnRNXZzL3YB8d57_F4_epA68jDzw-0dMNX2EGW1kzO/Sarvi_mne_bashku.png" alt="Работа 16" class="art-img"><div class="art-title">«Сарви мне башку»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/br9sr6g6UZ2xt7_ZH-w39DNYhlg2-9nN88TC3MJcLfFUT_u6jB1oEgkPZqxe_sq3d_OLALOBgpgQTNKEXO4uCipQ8dF7lJY8marhQfklhb7l03qQghhayM35OMJUyRWahYo2h-Q0JmY4/n_1UbqJbbYWZTLaXDJxYzpcE95U2A0-AJelcGUSJtFZoJFRHQn7Z44pFk6Cf0mCcW9kqy42nXwpphKDQ3i7HYFOw.jpg" alt="Работа 17" class="art-img"><div class="art-title">Скетчинг — «Работа 17»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/QyszLQzY_Ldx1gtINmLw7ayKAa9rFlHXoaEffTH5c9QeUiMtEfU41jtxhVotfLwUbr5Bj_SPJRXEPLOCPsowo07K-FRN2UHZSyM9Wn0aIND96f4vyCBl1RtduI-aivLLLfkAl_RoocrM/OHhW_pyXaatICxiJFxe8caVRgp5gFnGcO1GDRkRVBxvOUshYxk5GE0zkD1FflYt6_5pTSxtdSOhsfktZ00l7u6.jpg" alt="Работа 18" class="art-img"><div class="art-title">Композиция — «Работа 18»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/q8oRvqykP0Zcs5nMGVLdrnqtLH4R1RELUxOpN-zUIyxVA2bVGsvjcgce0smfLDHgam_Z1dDT_SsJMWo1MtkxM8rC4gqCa316dic2mRt6CKDEWPDTXRdW0CX1j4l3ZJsahQkLTV4t_Bsy/3MtP645kLg6wdSr0VkHGs4ZRy-lAv0RbQDHn_8Na0h0FqSPnU_a3OOZ3ytpXLtoF9_rncu6AXlYK97Art9a_60NP.jpg" alt="Работа 19" class="art-img"><div class="art-title">Иллюстрация — «Работа 19»</div></td>
-          <td><img src="https://psv4.userapi.com/s/v1/d2/LXh7TpQ-blzRx_lkwwu3gZIDNc83ZPptbCxyohI9f39UvJizforNb8-rsY7H5bgG7gArPUykbFAJhDXPoPcY9yDSQBMTQ3HcBETY0rg7T760NoGKJKARuJp-Wsubzt-AyZz6REWsfq_h/Xy6_vOvN3r29VzM30wAk5h59olClcxFSPpny9Gudb6AnwWGrwdYZmHxyLk7lHgxMjpujTortC7uRTBX8XTZ2pP4H.jpg" alt="Работа 20" class="art-img"><div class="art-title">Керамика — «Работа 20»</div></td>
+          <td><img src="сарви_мне_башку.png" alt="Работа 16" class="art-img"><div class="art-title">«Сарви мне башку»</div></td>
+          <td><img src="n_1UbqJbbYWZTLaXDJxYzpcE95U2A0-AJelcGUSJtFZoJFRHQn7Z44pFk6Cf0mCcW9kqy42nXwpphKDQ3i7HYFOw.jpg" alt="Работа 17" class="art-img"><div class="art-title">Скетчинг — «Работа 17»</div></td>
+          <td><img src="OHhW_pyXaatICxiJFxe8caVRgp5gFnGcO1GDRkRVBxvOUshYxk5GE0zkD1FflYt6_5pTSxtdSOhsfktZ00l7u6.jpg" alt="Работа 18" class="art-img"><div class="art-title">Композиция — «Работа 18»</div></td>
+          <td><img src="3MtP645kLg6wdSr0VkHGs4ZRy-lAv0RbQDHn_8Na0h0FqSPnU_a3OOZ3ytpXLtoF9_rncu6AXlYK97Art9a_60NP.jpg" alt="Работа 19" class="art-img"><div class="art-title">Иллюстрация — «Работа 19»</div></td>
+          <td><img src="Xy6_vOvN3r29VzM30wAk5h59olClcxFSPpny9Gudb6AnwWGrwdYZmHxyLk7lHgxMjpujTortC7uRTBX8XTZ2pP4H.jpg" alt="Работа 20" class="art-img"><div class="art-title">Керамика — «Работа 20»</div></td>
         </tr>
       </table>
     </div>
   </div>
 
-  <!-- 5. Контакты -->
   <div class="section" id="contacts">
     <div class="section-header">Обратная связь</div>
     <div class="section-content">
@@ -324,22 +309,10 @@
     </div>
   </div>
 
-
-
-  <!-- Футер -->
   <footer class="forum-footer">
     © 2026 Портфолио студента | Создано в рамках учебного задания<br>
   Всё украл
   </footer>
 </div>
-
-<script>
-  // Имитация отправки формы
-  document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('✅ Сообщение успешно отправлено!\n\nВ реальном проекте здесь будет редирект на страницу благодарности или интеграция с Google Forms.');
-    this.reset();
-  });
-</script>
 </body>
 </html>
